@@ -62,9 +62,9 @@
       <a href="#" class="brand-logo">Sonu Kumar</a>
       <ul class="right hide-on-med-and-down">
         <li><a href="#about">About</a></li>
-        <li><a href="#resume">Resume</a></li>
         <li><a href="#projects">Projects</a></li>
         <li><a href="#skills">Skills</a></li>
+        <li><a href="#resume">Resume</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>
     </div>
@@ -81,20 +81,19 @@
     </p>
   </div> -->
 
-  <!-- About Section -->
+ <!-- About Section -->
 <div class="container section" id="about">
-  <h4 class="section-title">About Me</h4>
+  <div class="card z-depth-2">
+    <div class="card-content center-align">
 
-  <div class="row valign-wrapper">
-    <div class="col s12 m4 center-align" style="padding: 10px;">
+      <!-- Profile Photo -->
       <div style="
-        width: 100%;
-        max-width: 150%;
-        aspect-ratio: auto;
-        border-radius: 50%;
+        width: 130px;
+        height: 150px;
+        border-radius: 10%;
         overflow: hidden;
-        margin: 0 auto;
-        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        margin: 0 auto 20px;
+        box-shadow: 0 4px 12px rgba(0,0,0,0.1);
       ">
         <img src="SonuPhotoPS.JPG" alt="Sonu Kumar" style="
           width: 100%;
@@ -103,18 +102,32 @@
           display: block;
         ">
       </div>
-    </div>
 
-    <div class="col s12">
-      <p>
+      <!-- Name -->
+      <!-- <h5 class="blue-text text-darken-2">Sonu Kumar</h5>
+      <p><strong>Java Backend Developer | 3+ Years of Experience</strong></p> -->
+      <h5 class="blue-text text-darken-2" style="font-weight: 700; letter-spacing: 1px; margin-bottom: 10px;">
+        <i class="material-icons" style="vertical-align: middle;">person</i>
+        About Me
+      </h5>
+      <h6 class="blue-text text-darken-3" style="font-weight: 700; margin-top: 10px; margin-bottom: 20px;">
+        Java Backend Developer &nbsp;|&nbsp; 3+ Years of Experience
+      </h6>
+      
+
+      <!-- Bio -->
+      <p style="text-align: justify;">
         Experienced Java Developer with over 3 years of hands-on expertise in designing, developing, and deploying robust Java applications. Proven track record of delivering scalable and high-performance software solutions in agile environments. Proficient in various Java frameworks and technologies including Spring, Hibernate, Microservices, MySql, Jenkins, Docker, Kubernetes and Maven. Skilled in troubleshooting and debugging complex issues, and adept at collaborating with cross-functional teams to define, design, and ship new features. Passionate about continuous learning and staying updated with the latest industry trends. Strong communicator with a focus on delivering results that exceed expectations.
+      <p style="text-align: justify;">
+        Proficient in Spring Boot, Hibernate, REST APIs, Microservices, MySQL, PostgreSQL, Kafka, Docker, and Kubernetes. Skilled in debugging complex issues and collaborating with cross-functional teams to define, design, and ship backend systems.
       </p>
-      <p>
-        I’ve worked on multiple client projects in the financial domain, including insurance services and airline management systems. I’m results-driven, performance-oriented, and currently looking to contribute to impactful backend systems in a fast-paced product environment.
+      <p style="text-align: justify;">
+        I’ve worked on client projects in the financial domain including insurance and airline systems. Currently seeking to contribute to impactful backend projects in a fast-paced product environment.
       </p>
     </div>
   </div>
 </div>
+
 
 
 
@@ -172,16 +185,6 @@
         <a href="https://github.com/cs2sonu1903/BrownFieldAirlineProject" target="_blank">🔗 View on GitHub</a>
       </div>
     </div>
-    
-
-    <!-- <div class="card">
-      <div class="card-content">
-        <span class="card-title">Life Quotation System – Insurance Client (Capgemini)</span>
-        <p>
-          Designed and maintained REST APIs for a real-time life quotation engine. Migrated codebase from Java 8 to 17 and Spring Boot 2.x to 3.x. Handled batch processing, database migration from Oracle to PostgreSQL, and integrated Kafka for event-driven processing.
-        </p>
-      </div>
-    </div> -->
   </div>
 
   <!-- Skills Section -->
@@ -189,12 +192,15 @@
     <h4 class="section-title">Skills</h4>
     <div class="skills">
       <span>Java 8/17</span>
+      <span>Multithreading</span>
+      <span>Collection Framework</span>
       <span>Spring Boot</span>
+      <span>Spring Security</span>
       <span>REST APIs</span>
-      <span>PostgreSQL</span>
-      <span>Oracle SQL</span>
       <span>Kafka</span>
       <span>JPA / Hibernate</span>
+      <span>PostgreSQL</span>
+      <span>Oracle SQL</span>
       <span>Docker</span>
       <span>Git</span>
       <span>JUnit / Mockito</span>
@@ -202,6 +208,29 @@
       <span>Agile / Scrum</span>
     </div>
   </div>
+
+  <!-- Education Section -->
+<div class="container section" id="education">
+  <h4 class="section-title">Education</h4>
+
+  <div class="card">
+    <div class="card-content">
+      <span class="card-title">
+        <i class="material-icons left" style="margin-right: 10px;">school</i>
+        B.Tech in Computer Science and Engineering
+      </span>
+      <p><strong>College:</strong> ITS Engineering College, Greater Noida, UP</p>
+      <p><strong>Duration:</strong> Jan 2017 – Jul 2021</p>
+      <p><strong>CGPA:</strong> 76.1%</p>
+      <ul class="browser-default">
+        <li>Cleared a college-level coding test during 2nd year and was selected for a commercial project under the industry collaboration program.</li>
+        <li>Actively participated in coding competitions, tech fests, and developer workshops.</li>
+        <li>Developed early interest in backend development and Java-based applications.</li>
+      </ul>
+    </div>
+  </div>
+</div>
+
 
   <!-- Resume Section -->
   <div class="container section" id="resume">
